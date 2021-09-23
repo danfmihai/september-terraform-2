@@ -1,4 +1,5 @@
 provider "aws" {
+    description = "The AWS region to create things in." 
     region = "us-east-1"
 }
 
