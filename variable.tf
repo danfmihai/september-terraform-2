@@ -10,3 +10,12 @@ variable "key_name" {
   description = " SSH keys to connect to ec2 instance"   
   default = "proxmox"
 }
+variable "count_instances" {
+  default = "3"
+}
+variable "Enviroment" {
+  default = "Dev"
+}
+variable "Created_by" {
+  default = "Mihai"
+}
